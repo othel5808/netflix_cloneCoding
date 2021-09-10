@@ -2,4 +2,7 @@
 body { font-family: sans-serif; }
 li { list-style: none; display: inline-block;}
 a { text-decoration: none; display: inline-block;}
+a:link { color: white; text-decoration: none;}
+a:visited { color: white; text-decoration: none;}
+a:hover { color: white; text-decoration: none;}
 img { border: 0;}
