@@ -7,9 +7,13 @@ RUN mkdir /django
 WORKDIR /django
 
 # Copying requirement
-COPY ./Netflix_clone    .
 
-RUN apk add --no-cache --virtual .build-deps \
-        ca-certificates gcc postgresql-dev linux-headers musl-dev \
-        libffi-dev  jpeg-dev  zlib-dev \
-        ** pip install -r requirements.txt \
+RUN apk update && apk add --no-cache --update ca-certificates gcc postgresql-dev \
+    linux-headers musl-dev libffi-dev jpeg-dev zlib-dev bash python3-dev  postgresql-dev \
+    py3-pip
+
+# python 패키지 업데이트
+RUN pip3 install update
+
+# pip를 이용한 Django 설치
+RUN pip3 install django
