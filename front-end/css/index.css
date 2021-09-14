@@ -1,0 +1,44 @@
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+header{
+    padding: 0 60px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    width: auto;
+    /*justify-content: space-between;*/
+}
+header #logo {
+    margin: auto 0;
+    margin-right: 25px;
+}
+header #primary-menu {
+    display: flex;
+    align-items: stretch;
+    margin: auto 0;
+    justify-content: space-around;
+}
+
+header #primary-menu li {
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 25px;
+}
+header #secondary-menu {
+    align-items: center;
+    align-items: stretch;
+    display: flex;
+    margin: auto 0;
+    margin-left: auto;
+}
+
+header #secondary-menu li {
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
