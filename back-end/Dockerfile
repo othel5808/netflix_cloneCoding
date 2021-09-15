@@ -18,3 +18,4 @@ RUN pip3 install update
 # pip를 이용한 Django 설치
 RUN pip3 install django
 
+#ENTRYPOINT ["entrypoint.sh"]
