@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'netflix',
 ]
 
 MIDDLEWARE = [
@@ -77,12 +78,13 @@ DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'backend',
-        'USER': 'admin',
-        'PASSWORD': 'django-insecure-#@9iuu9p9o0e3s@vhe8wm_mrjf@5@lhx9zm8of#$$3y)ham*c2',
-        'HOST': '0.0.0.0',
-        'PORT': 5432
-        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        # 'PASSWORD': 'django-insecure-#@9iuu9p9o0e3s@vhe8wm_mrjf@5@lhx9zm8of#$$3y)ham*c2',
+        'PASSWORD': 'root',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+#         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
