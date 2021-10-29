@@ -1,3 +1,8 @@
+# Tech Stack
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=square&logo=HTML5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=square&logo=CSS3&logoColor=white) 
+![Javascript](https://img.shields.io/badge/Javascript-ffb13b?style=square&logo=Javascript&logoColor=white)
+
 # 1. 목적
   본 Repository의 목적은 HTML + CSS 그리고 Javascript의 학습을 목적으로, Netflix의 메인화면 및 그 외 화면의 구성을 목적으로 한다.
 
